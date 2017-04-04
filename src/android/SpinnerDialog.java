@@ -12,6 +12,9 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.widget.ProgressBar;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+
 public class SpinnerDialog extends CordovaPlugin {
 
 	public Stack<ProgressDialog> spinnerDialogStack = new Stack<ProgressDialog>();
