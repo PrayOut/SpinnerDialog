@@ -3,6 +3,8 @@ SpinnerDialog
 
 PhoneGap waiting dialog / progress dialog plugin with spinner for Android, iOS and Windows Phone 8.
 
+Note:  this is a Fork of Paldom/SpinnerDialog that has a fix in to suppress the dark rectangle that appears on Android when both title and message are set to null.
+
 ## Installation
 
 Latest stable release: ```phonegap local plugin add cordova-plugin-spinner-dialog```  
