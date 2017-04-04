@@ -50,6 +50,7 @@ public class SpinnerDialog extends CordovaPlugin {
 					
 					if (title == null && message == null) {
 						dialog.setContentView(new ProgressBar(cordova.getActivity()));
+						dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 					}
 					
 					SpinnerDialog.this.spinnerDialogStack.push(dialog);
